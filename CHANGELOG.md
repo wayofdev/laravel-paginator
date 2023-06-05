@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/wayofdev/laravel-paginator/compare/v1.0.0...v1.1.0) (2023-06-05)
+
+
+### Features
+
+* add pagination interface for repositories ([c88d44f](https://github.com/wayofdev/laravel-paginator/commit/c88d44f97c75562fe99c0f10b8b521cc0510a515))
+
 ## 1.0.0 (2023-06-05)
 
 
