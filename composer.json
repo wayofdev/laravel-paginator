@@ -1,12 +1,12 @@
 {
-    "name": "wayofdev/laravel-package-tpl",
-    "description": "PHP package template with GitHub Actions",
+    "name": "wayofdev/paginator",
+    "description": "Custom Laravel Paginator for Cycle-ORM implementing RFC 5988.",
     "type": "library",
     "license": "MIT",
     "homepage": "https://wayof.dev",
     "support": {
-        "issues": "https://github.com/wayofdev/laravel-package-tpl/issues",
-        "source": "https://github.com/wayofdev/laravel-package-tpl"
+        "issues": "https://github.com/wayofdev/laravel-paginator/issues",
+        "source": "https://github.com/wayofdev/laravel-paginator"
     },
     "authors": [
         {
@@ -16,7 +16,9 @@
     ],
     "require": {
         "php": "^8.2",
-        "illuminate/contracts": "^v10.13"
+        "illuminate/contracts": "^v10.13",
+        "spiral/pagination": "^3.7",
+        "symfony/web-link": "^6.3"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.31",
@@ -31,17 +33,18 @@
         "phpstan/phpstan-strict-rules": "^1.5",
         "phpunit/phpunit": "^10.2",
         "roave/security-advisories": "dev-latest",
+        "tiagohillebrandt/php-parse-link-header": "^1.0",
         "wayofdev/cs-fixer-config": "^1.2"
     },
     "autoload": {
         "psr-4": {
-            "WayOfDev\\Package\\": "src/"
+            "WayOfDev\\Paginator\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "WayOfDev\\Package\\App\\": "tests/app/",
-            "WayOfDev\\Package\\Tests\\": "tests/src/"
+            "WayOfDev\\Paginator\\App\\": "tests/app/",
+            "WayOfDev\\Paginator\\Tests\\": "tests/src/"
         }
     },
     "scripts": {
@@ -61,11 +64,6 @@
         }
     },
     "extra": {
-        "laravel": {
-            "providers": [
-                "WayOfDev\\Package\\Bridge\\Laravel\\Providers\\PackageServiceProvider"
-            ]
-        },
         "composer-normalize": {
             "indent-size": 4,
             "indent-style": "space"
