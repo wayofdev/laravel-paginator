@@ -1,6 +1,6 @@
 {
     "version": "2.1.0",
     "repository": {
-        "url": "https://github.com/wayofdev/laravel-package-tpl.git"
+        "url": "https://github.com/wayofdev/laravel-paginator.git"
     }
 }
