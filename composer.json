@@ -1,5 +1,5 @@
 {
-    "name": "wayofdev/paginator",
+    "name": "wayofdev/laravel-paginator",
     "description": "Custom Laravel Paginator for Cycle-ORM implementing RFC 5988.",
     "type": "library",
     "license": "MIT",

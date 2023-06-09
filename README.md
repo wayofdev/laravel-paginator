@@ -12,10 +12,10 @@
 
 <div align="center">
 <a href="https://github.com/wayofdev/laravel-paginator/actions"><img alt="Build Status" src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fwayofdev%2Flaravel-paginator%2Fbadge&style=flat-square"/></a>
-<a href="https://packagist.org/packages/wayofdev/paginator"><img src="https://img.shields.io/packagist/dt/wayofdev/paginator?&style=flat-square" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/wayofdev/paginator"><img src="https://img.shields.io/packagist/v/wayofdev/paginator?&style=flat-square" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/wayofdev/paginator"><img src="https://img.shields.io/packagist/l/wayofdev/paginator?style=flat-square&color=blue" alt="Software License"/></a>
-<a href="https://packagist.org/packages/wayofdev/paginator"><img alt="Commits since latest release" src="https://img.shields.io/github/commits-since/wayofdev/laravel-paginator/latest?style=flat-square"></a>
+<a href="https://packagist.org/packages/wayofdev/laravel-paginator"><img src="https://img.shields.io/packagist/dt/wayofdev/laravel-paginator?&style=flat-square" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/wayofdev/laravel-paginator"><img src="https://img.shields.io/packagist/v/wayofdev/laravel-paginator?&style=flat-square" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/wayofdev/laravel-paginator"><img src="https://img.shields.io/packagist/l/wayofdev/laravel-paginator?style=flat-square&color=blue" alt="Software License"/></a>
+<a href="https://packagist.org/packages/wayofdev/laravel-paginator"><img alt="Commits since latest release" src="https://img.shields.io/github/commits-since/wayofdev/laravel-paginator/latest?style=flat-square"></a>
 </div>
 
 <br>
@@ -35,7 +35,7 @@ If you **like/use** this package, please consider **starring** it. Thanks!
 Require as dependency:
 
 ```bash
-$ composer req wayofdev/paginator
+$ composer req wayofdev/laravel-paginator
 ```
 
 <br>
