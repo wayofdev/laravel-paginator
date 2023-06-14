@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.6](https://github.com/wayofdev/laravel-paginator/compare/v1.2.5...v1.2.6) (2023-06-14)
+
+
+### Miscellaneous
+
+* **deps:** update dependency nunomaduro/larastan to v2.6.3 ([9636391](https://github.com/wayofdev/laravel-paginator/commit/9636391c3610be92fc6cafe0908adbb34e80941a))
+
 ## [1.2.5](https://github.com/wayofdev/laravel-paginator/compare/v1.2.4...v1.2.5) (2023-06-14)
 
 
