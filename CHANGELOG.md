@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.26](https://github.com/wayofdev/laravel-paginator/compare/v1.2.25...v1.2.26) (2023-07-01)
+
+
+### Miscellaneous
+
+* **deps:** update dependency wayofdev/cs-fixer-config to v1.2.23 ([186f541](https://github.com/wayofdev/laravel-paginator/commit/186f541c406cb6baddada6ce291325438f5b4fac))
+
 ## [1.2.25](https://github.com/wayofdev/laravel-paginator/compare/v1.2.24...v1.2.25) (2023-06-30)
 
 
