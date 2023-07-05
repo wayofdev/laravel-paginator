@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.30](https://github.com/wayofdev/laravel-paginator/compare/v1.2.29...v1.2.30) (2023-07-05)
+
+
+### Miscellaneous
+
+* **deps:** update dependency phpstan/phpstan to v1.10.24 ([a6fc9c2](https://github.com/wayofdev/laravel-paginator/commit/a6fc9c21d7268a79fa02d0af88533ff073a6bba3))
+
 ## [1.2.29](https://github.com/wayofdev/laravel-paginator/compare/v1.2.28...v1.2.29) (2023-07-04)
 
 
