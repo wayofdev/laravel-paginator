@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.36](https://github.com/wayofdev/laravel-paginator/compare/v1.2.35...v1.2.36) (2023-07-09)
+
+
+### Miscellaneous
+
+* **deps:** update dependency ergebnis/composer-normalize to v2.33.0 ([a1b7076](https://github.com/wayofdev/laravel-paginator/commit/a1b70769cc4e8bf64838db9359ca1b387d82d21c))
+
 ## [1.2.35](https://github.com/wayofdev/laravel-paginator/compare/v1.2.34...v1.2.35) (2023-07-09)
 
 
