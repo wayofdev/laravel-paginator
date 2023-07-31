@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.54](https://github.com/wayofdev/laravel-paginator/compare/v1.2.53...v1.2.54) (2023-07-31)
+
+
+### Miscellaneous
+
+* **deps:** update dependency pestphp/pest to v2.10.0 ([634a9aa](https://github.com/wayofdev/laravel-paginator/commit/634a9aab742b390e87e147e4e0fd85184588da95))
+
 ## [1.2.53](https://github.com/wayofdev/laravel-paginator/compare/v1.2.52...v1.2.53) (2023-07-29)
 
 
