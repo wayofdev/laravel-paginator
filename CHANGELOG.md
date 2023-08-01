@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.55](https://github.com/wayofdev/laravel-paginator/compare/v1.2.54...v1.2.55) (2023-08-01)
+
+
+### Miscellaneous
+
+* **deps:** update dependency orchestra/testbench to v8.5.11 ([0eb04e0](https://github.com/wayofdev/laravel-paginator/commit/0eb04e0c9b5a0f7695b70362d10f78af1ec605e0))
+* **deps:** update dependency pestphp/pest to v2.10.1 ([c41da0b](https://github.com/wayofdev/laravel-paginator/commit/c41da0b5f3fe3acc7afeccf9d673f43435b85008))
+
 ## [1.2.54](https://github.com/wayofdev/laravel-paginator/compare/v1.2.53...v1.2.54) (2023-07-31)
 
 
