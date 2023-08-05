@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.60](https://github.com/wayofdev/laravel-paginator/compare/v1.2.59...v1.2.60) (2023-08-05)
+
+
+### Miscellaneous
+
+* **deps:** update phpstan packages ([1206d57](https://github.com/wayofdev/laravel-paginator/commit/1206d5786741f4b3cd95becf7aa8b6bcc1f8bd3b))
+
 ## [1.2.59](https://github.com/wayofdev/laravel-paginator/compare/v1.2.58...v1.2.59) (2023-08-04)
 
 
