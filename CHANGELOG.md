@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.70](https://github.com/wayofdev/laravel-paginator/compare/v1.2.69...v1.2.70) (2023-08-13)
+
+
+### Miscellaneous
+
+* **deps:** update dependency phpunit/phpunit to v10.3.1 ([94b45ec](https://github.com/wayofdev/laravel-paginator/commit/94b45ecb190947ec11eded4858f3236f4f217e0f))
+
 ## [1.2.69](https://github.com/wayofdev/laravel-paginator/compare/v1.2.68...v1.2.69) (2023-08-12)
 
 
