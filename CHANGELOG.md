@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.74](https://github.com/wayofdev/laravel-paginator/compare/v1.2.73...v1.2.74) (2023-08-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency spiral/pagination to v3.8.0 ([3ecd218](https://github.com/wayofdev/laravel-paginator/commit/3ecd218e18df127339e9b33d47e4b9d92d5a0551))
+
 ## [1.2.73](https://github.com/wayofdev/laravel-paginator/compare/v1.2.72...v1.2.73) (2023-08-14)
 
 
