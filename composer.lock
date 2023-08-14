@@ -2257,16 +2257,16 @@
         },
         {
             "name": "spiral/pagination",
-            "version": "3.7.1",
+            "version": "3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spiral/pagination.git",
-                "reference": "753d2604cda3363414c1a703bafb709d57a52918"
+                "reference": "fc2209322be6c548a8658d2a0785c588f3ee3764"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spiral/pagination/zipball/753d2604cda3363414c1a703bafb709d57a52918",
-                "reference": "753d2604cda3363414c1a703bafb709d57a52918",
+                "url": "https://api.github.com/repos/spiral/pagination/zipball/fc2209322be6c548a8658d2a0785c588f3ee3764",
+                "reference": "fc2209322be6c548a8658d2a0785c588f3ee3764",
                 "shasum": ""
             },
             "require": {
@@ -2274,7 +2274,7 @@
             },
             "require-dev": {
                 "mockery/mockery": "^1.5",
-                "phpunit/phpunit": "^9.5.20",
+                "phpunit/phpunit": "^10.1",
                 "vimeo/psalm": "^5.9"
             },
             "type": "library",
@@ -2316,7 +2316,7 @@
                 "issues": "https://github.com/spiral/framework/issues",
                 "source": "https://github.com/spiral/pagination"
             },
-            "time": "2023-04-20T16:06:33+00:00"
+            "time": "2023-04-25T17:34:17+00:00"
         },
         {
             "name": "symfony/console",
