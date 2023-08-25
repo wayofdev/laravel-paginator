@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.87](https://github.com/wayofdev/laravel-paginator/compare/v1.2.86...v1.2.87) (2023-08-25)
+
+
+### Miscellaneous
+
+* **deps:** update dependency phpstan/phpstan-phpunit to v1.3.14 ([cc3d6bf](https://github.com/wayofdev/laravel-paginator/commit/cc3d6bfb06adb422520176b124a2aa39d917a8b3))
+
 ## [1.2.86](https://github.com/wayofdev/laravel-paginator/compare/v1.2.85...v1.2.86) (2023-08-25)
 
 
