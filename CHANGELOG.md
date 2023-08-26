@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.89](https://github.com/wayofdev/laravel-paginator/compare/v1.2.88...v1.2.89) (2023-08-26)
+
+
+### Miscellaneous
+
+* **deps:** update dependency orchestra/testbench to v8.9.1 ([cae6efd](https://github.com/wayofdev/laravel-paginator/commit/cae6efdea158d9276dca2f5392d5f781e754b1f7))
+
 ## [1.2.88](https://github.com/wayofdev/laravel-paginator/compare/v1.2.87...v1.2.88) (2023-08-25)
 
 
