@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.98](https://github.com/wayofdev/laravel-paginator/compare/v1.2.97...v1.2.98) (2023-09-04)
+
+
+### Miscellaneous
+
+* **deps:** update actions/checkout action to v4 ([b2e92bc](https://github.com/wayofdev/laravel-paginator/commit/b2e92bc71aef828ef4c8e27b50f6b84dc08f2809))
+
 ## [1.2.97](https://github.com/wayofdev/laravel-paginator/compare/v1.2.96...v1.2.97) (2023-09-04)
 
 
