@@ -2257,7 +2257,7 @@
         },
         {
             "name": "spiral/pagination",
-            "version": "3.8.3",
+            "version": "3.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spiral/pagination.git",
