@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.105](https://github.com/wayofdev/laravel-paginator/compare/v1.2.104...v1.2.105) (2023-09-14)
+
+
+### Miscellaneous
+
+* **deps:** update codecov/codecov-action action to v4 ([a8ec212](https://github.com/wayofdev/laravel-paginator/commit/a8ec212492b0d184674923852eb35d3ef79025d5))
+
 ## [1.2.104](https://github.com/wayofdev/laravel-paginator/compare/v1.2.103...v1.2.104) (2023-09-13)
 
 
