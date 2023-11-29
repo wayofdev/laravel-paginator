@@ -18,7 +18,7 @@
         "php": "^8.2",
         "illuminate/contracts": "^v10.13",
         "spiral/pagination": "^3.7",
-        "symfony/web-link": "^6.3"
+        "symfony/web-link": "^7.0"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.31",
