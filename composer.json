@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": "^8.2",
-        "illuminate/contracts": "^v10.13",
+        "illuminate/contracts": "^v11.0.0",
         "spiral/pagination": "^3.7",
         "symfony/web-link": "^6.3"
     },
