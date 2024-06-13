@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/wayofdev/laravel-paginator/compare/v1.2.106...v1.3.0) (2024-06-13)
+
+
+### Features
+
+* apply latest changes from wayofdev/laravel-package-tpl ([9205543](https://github.com/wayofdev/laravel-paginator/commit/9205543141044f6c10f129de533c8268c4f21f25))
+
 ## [1.2.106](https://github.com/wayofdev/laravel-paginator/compare/v1.2.105...v1.2.106) (2023-09-14)
 
 
