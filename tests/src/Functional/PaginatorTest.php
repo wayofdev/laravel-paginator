@@ -2,8 +2,9 @@
 
 declare(strict_types=1);
 
-namespace WayOfDev\Paginator\Tests;
+namespace WayOfDev\Tests\Functional;
 
+use PHPUnit\Framework\Attributes\Test;
 use TiagoHillebrandt\ParseLinkHeader;
 use WayOfDev\Paginator\Paginator;
 
@@ -11,9 +12,7 @@ final class PaginatorTest extends TestCase
 {
     private int $perPage = 5;
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_sets_headers(): void
     {
         $paginator = new Paginator($this->items, 5);
@@ -28,9 +27,7 @@ final class PaginatorTest extends TestCase
         $this::assertEquals($expectedHeaders, $paginator->headers());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_returns_links(): void
     {
         $paginator = new Paginator($this->items, $this->perPage);

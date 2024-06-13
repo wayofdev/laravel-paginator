@@ -1,0 +1,14 @@
+{
+    "symbol-whitelist": [
+        "Illuminate\\Support\\ServiceProvider",
+        "Illuminate\\Console\\Command",
+        "Illuminate\\Contracts\\Pagination\\LengthAwarePaginator",
+        "Illuminate\\Http\\JsonResponse",
+        "Illuminate\\Pagination\\AbstractPaginator",
+        "Illuminate\\Pagination\\LengthAwarePaginator",
+        "Illuminate\\Pagination\\Paginator",
+        "Illuminate\\Support\\Collection",
+        "Illuminate\\Support\\LazyCollection",
+        "config_path"
+    ]
+}

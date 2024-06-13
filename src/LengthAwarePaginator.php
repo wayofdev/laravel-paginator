@@ -11,6 +11,10 @@ use WayOfDev\Paginator\Concerns\WithHeaders;
 
 use function array_values;
 
+/**
+ * Extends the default Laravel LengthAwarePaginator to add headers and a toArray method.
+ * Can be used with Eloquent models and collections.
+ */
 final class LengthAwarePaginator extends IlluminatePaginator
 {
     use WithHeaders;

@@ -37,7 +37,7 @@ trait WithHeaders
         $lastPage = $this->lastPage();
         $pages = ['first' => 1, 'last' => $lastPage];
 
-        if (1 < $currentPage) {
+        if ($currentPage > 1) {
             $pages['prev'] = $currentPage - 1;
         }
         if ($currentPage < $lastPage) {
