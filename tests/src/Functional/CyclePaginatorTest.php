@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace WayOfDev\Tests\Functional;
 
+use PHPUnit\Framework\Attributes\Test;
 use Spiral\Pagination\Paginator as SpiralPaginator;
 use TiagoHillebrandt\ParseLinkHeader;
 use WayOfDev\Paginator\CyclePaginator;
@@ -17,33 +18,25 @@ final class CyclePaginatorTest extends TestCase
 
     private int $perPage = 5;
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_gets_total_items(): void
     {
         self::assertEquals(34, $this->getPaginator()->total());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_gets_last_page(): void
     {
         self::assertEquals(7, $this->getPaginator()->lastPage());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_gets_next_page_url_when_it_exists(): void
     {
         self::assertEquals('/?page=3', $this->getPaginator()->nextPageUrl());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_gets_next_page_url_when_it_not_exists(): void
     {
         self::assertNull(
@@ -51,17 +44,13 @@ final class CyclePaginatorTest extends TestCase
         );
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_gets_previous_page_url_when_it_exists(): void
     {
         self::assertEquals('/?page=1', $this->getPaginator()->previousPageUrl());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_gets_previous_page_url_when_it_not_exists(): void
     {
         self::assertNull(
@@ -69,9 +58,7 @@ final class CyclePaginatorTest extends TestCase
         );
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_gets_items(): void
     {
         $items = array_slice($this->items, 5, 5, true);
@@ -79,57 +66,43 @@ final class CyclePaginatorTest extends TestCase
         self::assertEquals($items, $this->getPaginator()->items());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_gets_first_item(): void
     {
         self::assertEquals(6, $this->getPaginator()->firstItem());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_gets_last_item(): void
     {
         self::assertEquals(10, $this->getPaginator()->lastItem());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_gets_per_page(): void
     {
         self::assertEquals(5, $this->getPaginator()->perPage());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_gets_current_page(): void
     {
         self::assertEquals(2, $this->getPaginator()->currentPage());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_gets_page_name(): void
     {
         self::assertEquals('page', $this->getPaginator()->getPageName());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_gets_count(): void
     {
         self::assertEquals(5, $this->getPaginator()->count());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_returns_links(): void
     {
         $paginator = $this->getPaginator();
@@ -150,9 +123,7 @@ final class CyclePaginatorTest extends TestCase
         self::assertEquals('3', $links['next']['page']);
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_returns_response_headers(): void
     {
         $paginator = $this->getPaginator();

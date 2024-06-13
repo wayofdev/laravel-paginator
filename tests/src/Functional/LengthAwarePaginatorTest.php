@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace WayOfDev\Tests\Functional;
 
 use Illuminate\Pagination\LengthAwarePaginator as IlluminatePaginator;
+use PHPUnit\Framework\Attributes\Test;
 use TiagoHillebrandt\ParseLinkHeader;
 use WayOfDev\Paginator\LengthAwarePaginator;
 
@@ -31,9 +32,7 @@ final class LengthAwarePaginatorTest extends TestCase
         );
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_returns_links(): void
     {
         $paginator = new LengthAwarePaginator($this->queryBuilderPaginator);
@@ -54,9 +53,7 @@ final class LengthAwarePaginatorTest extends TestCase
         self::assertEquals('3', $links['next']['page']);
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function it_returns_response_headers(): void
     {
         $paginator = new LengthAwarePaginator($this->queryBuilderPaginator);
