@@ -19,6 +19,14 @@ final class PaginatorServiceProvider extends ServiceProvider
         }
     }
 
+    public function register(): void
+    {
+        $this->mergeConfigFrom(
+            __DIR__ . '/../../../../config/paginator.php',
+            'paginator'
+        );
+    }
+
     private function registerConsoleCommands(): void
     {
         $this->commands([]);

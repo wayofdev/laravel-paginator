@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace WayOfDev\Paginator\Tests;
+namespace WayOfDev\Tests\Functional;
 
 use TiagoHillebrandt\ParseLinkHeader;
 use WayOfDev\Paginator\Paginator;

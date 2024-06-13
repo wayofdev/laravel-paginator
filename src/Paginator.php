@@ -9,6 +9,10 @@ use Symfony\Component\WebLink\GenericLinkProvider;
 use Symfony\Component\WebLink\HttpHeaderSerializer;
 use WayOfDev\Paginator\Concerns\WithHeaders;
 
+/**
+ * Extends the default Laravel IlluminatePaginator to add headers and a toArray method.
+ * Can be used with Eloquent models and collections.
+ */
 final class Paginator extends IlluminatePaginator
 {
     use WithHeaders;

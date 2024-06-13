@@ -1,0 +1,86 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Class WayOfDev\\\\Paginator\\\\CyclePaginator extends generic class Illuminate\\\\Pagination\\\\AbstractPaginator but does not specify its types\\: TValue$#"
+			count: 1
+			path: src/CyclePaginator.php
+
+		-
+			message: "#^Class WayOfDev\\\\Paginator\\\\CyclePaginator implements generic interface Illuminate\\\\Contracts\\\\Pagination\\\\LengthAwarePaginator but does not specify its types\\: TItem$#"
+			count: 1
+			path: src/CyclePaginator.php
+
+		-
+			message: "#^Method WayOfDev\\\\Paginator\\\\CyclePaginator\\:\\:__construct\\(\\) has parameter \\$items with generic class Illuminate\\\\Support\\\\Collection but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/CyclePaginator.php
+
+		-
+			message: "#^Method WayOfDev\\\\Paginator\\\\CyclePaginator\\:\\:headers\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/CyclePaginator.php
+
+		-
+			message: "#^Method WayOfDev\\\\Paginator\\\\CyclePaginator\\:\\:pages\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/CyclePaginator.php
+
+		-
+			message: "#^Method WayOfDev\\\\Paginator\\\\CyclePaginator\\:\\:render\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/CyclePaginator.php
+
+		-
+			message: "#^Method WayOfDev\\\\Paginator\\\\CyclePaginator\\:\\:toArray\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/CyclePaginator.php
+
+		-
+			message: "#^Property WayOfDev\\\\Paginator\\\\CyclePaginator\\:\\:\\$results with generic class Illuminate\\\\Support\\\\LazyCollection does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/CyclePaginator.php
+
+		-
+			message: "#^Class WayOfDev\\\\Paginator\\\\LengthAwarePaginator extends generic class Illuminate\\\\Pagination\\\\LengthAwarePaginator but does not specify its types\\: TValue$#"
+			count: 1
+			path: src/LengthAwarePaginator.php
+
+		-
+			message: "#^Method WayOfDev\\\\Paginator\\\\LengthAwarePaginator\\:\\:__construct\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/LengthAwarePaginator.php
+
+		-
+			message: "#^Method WayOfDev\\\\Paginator\\\\LengthAwarePaginator\\:\\:__construct\\(\\) has parameter \\$paginator with generic class Illuminate\\\\Pagination\\\\LengthAwarePaginator but does not specify its types\\: TValue$#"
+			count: 1
+			path: src/LengthAwarePaginator.php
+
+		-
+			message: "#^Method WayOfDev\\\\Paginator\\\\LengthAwarePaginator\\:\\:headers\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/LengthAwarePaginator.php
+
+		-
+			message: "#^Method WayOfDev\\\\Paginator\\\\LengthAwarePaginator\\:\\:pages\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/LengthAwarePaginator.php
+
+		-
+			message: "#^Class WayOfDev\\\\Paginator\\\\Paginator extends generic class Illuminate\\\\Pagination\\\\Paginator but does not specify its types\\: TValue$#"
+			count: 1
+			path: src/Paginator.php
+
+		-
+			message: "#^Method WayOfDev\\\\Paginator\\\\Paginator\\:\\:headers\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Paginator.php
+
+		-
+			message: "#^Method WayOfDev\\\\Paginator\\\\Paginator\\:\\:pages\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Paginator.php
+
+		-
+			message: "#^Property WayOfDev\\\\Tests\\\\Functional\\\\LengthAwarePaginatorTest\\:\\:\\$queryBuilderPaginator with generic class Illuminate\\\\Pagination\\\\LengthAwarePaginator does not specify its types\\: TValue$#"
+			count: 1
+			path: tests/src/Functional/LengthAwarePaginatorTest.php

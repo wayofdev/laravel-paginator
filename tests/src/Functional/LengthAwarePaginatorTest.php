@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace WayOfDev\Paginator\Tests;
+namespace WayOfDev\Tests\Functional;
 
 use Illuminate\Pagination\LengthAwarePaginator as IlluminatePaginator;
 use TiagoHillebrandt\ParseLinkHeader;

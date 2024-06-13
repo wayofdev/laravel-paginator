@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace WayOfDev\Paginator\Tests;
+namespace WayOfDev\Tests\Functional;
 
 use Spiral\Pagination\Paginator as SpiralPaginator;
 use TiagoHillebrandt\ParseLinkHeader;
