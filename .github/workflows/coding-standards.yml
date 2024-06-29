@@ -85,7 +85,7 @@ jobs:
       contents: write
     steps:
       - name: 🛠️ Setup PHP
-        uses: shivammathur/setup-php@2.30.5
+        uses: shivammathur/setup-php@1.5.6
         with:
           php-version: ${{ matrix.php-version }}
           extensions: none, ctype, dom, json, mbstring, phar, simplexml, tokenizer, xml, xmlwriter, phar, fileinfo, curl
