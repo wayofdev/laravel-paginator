@@ -2962,16 +2962,16 @@
         },
         {
             "name": "spiral/pagination",
-            "version": "3.13.0",
+            "version": "3.14.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spiral/pagination.git",
-                "reference": "9b15bb8dc29999d133ee7025b0dd0bb3813231b9"
+                "reference": "93c9d93c811b4ec6037491e516c3e194fdc94848"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spiral/pagination/zipball/9b15bb8dc29999d133ee7025b0dd0bb3813231b9",
-                "reference": "9b15bb8dc29999d133ee7025b0dd0bb3813231b9",
+                "url": "https://api.github.com/repos/spiral/pagination/zipball/93c9d93c811b4ec6037491e516c3e194fdc94848",
+                "reference": "93c9d93c811b4ec6037491e516c3e194fdc94848",
                 "shasum": ""
             },
             "require": {
@@ -2985,7 +2985,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.13.x-dev"
+                    "dev-master": "3.15.x-dev"
                 }
             },
             "autoload": {
@@ -3021,7 +3021,13 @@
                 "issues": "https://github.com/spiral/framework/issues",
                 "source": "https://github.com/spiral/pagination"
             },
-            "time": "2024-05-22T18:44:11+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/spiral",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-09-03T16:59:10+00:00"
         },
         {
             "name": "symfony/clock",
@@ -13468,13 +13474,13 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.2"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "platform-overrides": {
         "php": "8.2.17"
     },
