@@ -37,7 +37,7 @@
         "phpstan/phpstan-strict-rules": "^1.5",
         "phpunit/phpunit": "^10.5 || 11.0",
         "psalm/plugin-laravel": "^2.11",
-        "psalm/plugin-phpunit": "^0.19",
+        "psalm/plugin-phpunit": "^0.20",
         "rector/rector": "^1.1",
         "roave/infection-static-analysis-plugin": "^1.35",
         "tiagohillebrandt/php-parse-link-header": "^1.0",
